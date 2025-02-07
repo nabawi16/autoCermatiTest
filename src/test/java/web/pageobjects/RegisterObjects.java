@@ -34,4 +34,12 @@ public class RegisterObjects extends PageObject {
                         .locatedBy("#otp-4");
         public static final Target VERIFY_BUTTON = Target.the("verify button")
                         .locatedBy("#verify-button");
+
+        // Status Registrasi
+        public static final Target REGISTER_SUCCESSFUL = Target.the("register successful message")
+                        .locatedBy("#register-successful");
+        public static final Target REGISTER_FAILED = Target.the("register failed message")
+                        .locatedBy("#register-failed");
+        public static final Target VALIDATE_EMAIL = Target.the("validate email message")
+                        .locatedBy("#validate-email");
 }
